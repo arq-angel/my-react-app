@@ -6,6 +6,7 @@ export const Greeting = ({ name, numberOfMessages }) => {
   //   console.log(props);
   //   const { name, numberOfMessages } = props;
 
+  console.log("Rendering Greeting");
   if (!name) return null;
 
   let isMorning = new Date().getHours() < 12;
